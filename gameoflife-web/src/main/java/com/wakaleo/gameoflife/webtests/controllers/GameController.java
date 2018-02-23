@@ -25,6 +25,7 @@ public class GameController {
     private Random randomGenerator = new Random();
 
 	// Clicking the "New Game" button on the main page loads the cell seletion page
+	//This is change AP
     @RequestMapping("/new")
     public ModelAndView newGame() {
         ModelAndView mav = new ModelAndView("game/edit");
